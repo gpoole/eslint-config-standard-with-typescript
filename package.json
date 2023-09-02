@@ -54,14 +54,10 @@
   ],
   "dependencies": {
     "@typescript-eslint/parser": "^6.4.0",
-    "eslint-config-standard": "17.1.0"
+    "eslint-config-standard": "github:standard/eslint-config-standard#6528dae93671ac5b2440007277e1b15e729b6356"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
     "eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
-    "eslint-plugin-promise": "^6.0.0",
     "typescript": "*"
   },
   "devDependencies": {
