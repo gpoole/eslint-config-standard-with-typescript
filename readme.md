@@ -4,18 +4,6 @@
 
 An [ESLint shareable config](https://eslint.org/docs/developer-guide/shareable-configs) for TypeScript that is based on [eslint-config-standard](https://github.com/standard/eslint-config-standard) and has TypeScript specific rules from [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin).
 
-# Peer dependencies 
-
-This package specifies the following `peerDependencies`:
-
-- TypeScript, which you may already have installed
-- [ESLint](https://github.com/eslint/eslint)
-- 3 Peer dependencies of [eslint-config-standard](https://github.com/standard/eslint-config-standard)
-- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin); ESLint rules for TypeScript.
-
-Yes, this is a large number of `peerDependencies`.
-This is due to [a known limitation in ESLint](https://github.com/eslint/eslint/issues/3458).
-
 # @typescript-eslint dependencies
 
 This package has `@typescript-eslint/parser` in `dependencies`.  
@@ -40,10 +28,6 @@ because your decisions regarding version ranges and range specifiers may vary.
 npm install --save-dev \
   typescript@\* \
   eslint@^8.0.1 \
-  eslint-plugin-promise@^6.0.0 \
-  eslint-plugin-import@^2.25.2 \
-  eslint-plugin-n@^15.0.0 \
-  @typescript-eslint/eslint-plugin@^6.4.0 \
   eslint-config-standard-with-typescript@latest
 ```
 
